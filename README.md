@@ -1,16 +1,20 @@
 # moengage_task
 
-A new Flutter project.
+A sample task project for MoEngage
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Loads articles from provided API
+- Search by publisher/author/title of articles
+- Sort by date (newest first/oldest first)
+- Offline mode support
+- Users can save articles offline
+- Connectivity-aware UI
+- Simple, clean UI
+- Made in 3.5hours
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot
+![Screenshot](screenshot.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Download
+Download the APK file from the [Releases Section](https://github.com/shripal17/moengage_task/releases)
