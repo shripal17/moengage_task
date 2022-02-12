@@ -3,6 +3,7 @@ import 'package:moengage_task/model/common/article.dart';
 
 part 'articles_response.g.dart';
 
+// Wrapper Response class as per the given API
 @JsonSerializable()
 class ArticlesResponse {
   ResponseStatus status;

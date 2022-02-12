@@ -6,6 +6,7 @@ import 'package:states_rebuilder/states_rebuilder.dart';
 
 import 'api_error.dart';
 
+/// Wrapper class for easy handling of api errors
 class GeneralResponse<T> {
   T? data;
   DioError? dioError;

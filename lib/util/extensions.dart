@@ -1,6 +1,7 @@
 import 'package:intl/intl.dart';
 
 extension StringX on String {
+  // helper getter to translate camel case to readable text
   String get readableFromCamelCase {
     String readable = this[0].toUpperCase();
     for (int i = 1; i < length; i++) {
@@ -18,6 +19,7 @@ final _timeDf = DateFormat("hh:mm");
 final _dateDf = DateFormat("dd MMM");
 
 extension HumanTimeX on DateTime {
+  // helper getter to return human-friendly time
   String get humanReadableTime {
     final now = DateTime.now();
     final difference = now.difference(this);

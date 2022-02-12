@@ -28,11 +28,13 @@ class ArticleItem extends StatelessWidget {
                 PlatformCachedNetworkImage(article.urlToImage, height: 180, fit: BoxFit.fitWidth),
                 const SizedBox(height: 16),
                 if (article.source != null) ...{
+                  // handle null fields
                   Text("${article.source!.name}${article.author != null ? " (by ${article.author})" : ""}", style: const TextStyle(color: Colors.black45, fontSize: 12)),
                   const SizedBox(height: 8),
                 },
                 Text(article.title, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
                 if (article.description != null) ...{
+                  // handle null fields
                   const SizedBox(height: 8),
                   Text(article.description!, style: const TextStyle(color: Colors.black54, fontSize: 14)),
                 },

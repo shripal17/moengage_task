@@ -3,6 +3,7 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'article.g.dart';
 
+// The main Article Data Class
 @JsonSerializable()
 @HiveType(typeId: 1)
 class Article extends HiveObject {

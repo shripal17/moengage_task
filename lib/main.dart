@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:moengage_task/adapter/source_item_adapter.dart';
 import 'package:moengage_task/model/common/article.dart';
 import 'package:moengage_task/screen/home_screen.dart';
 import 'package:moengage_task/util/constants.dart';
