@@ -1,0 +1,6 @@
+package com.moengage.task.moengage_task
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
