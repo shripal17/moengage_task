@@ -9,6 +9,7 @@ A sample task project for MoEngage
 - Sort by date (newest first/oldest first)
 - Offline mode support
 - Users can save articles offline
+- Offline Database is encrypted with AES Encryption
 - Connectivity-aware UI
 - Simple, clean UI
 - Made in 3.5hours
